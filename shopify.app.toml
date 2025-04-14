@@ -3,7 +3,7 @@
 client_id = "e91793fbbd8b956835c571a19e5a455b"
 name = "video-loader"
 handle = "video-loader"
-application_url = "https://vegetables-amber-quilt-medicines.trycloudflare.com"
+application_url = "https://outside-register-ann-journalist.trycloudflare.com"
 embedded = true
 
 [build]
@@ -19,9 +19,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://vegetables-amber-quilt-medicines.trycloudflare.com/auth/callback",
-  "https://vegetables-amber-quilt-medicines.trycloudflare.com/auth/shopify/callback",
-  "https://vegetables-amber-quilt-medicines.trycloudflare.com/api/auth/callback"
+  "https://outside-register-ann-journalist.trycloudflare.com/auth/callback",
+  "https://outside-register-ann-journalist.trycloudflare.com/auth/shopify/callback",
+  "https://outside-register-ann-journalist.trycloudflare.com/api/auth/callback"
 ]
 
 [pos]
