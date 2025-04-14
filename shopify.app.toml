@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "e91793fbbd8b956835c571a19e5a455b"
+name = "video-loader"
+handle = "video-loader"
+application_url = "https://vegetables-amber-quilt-medicines.trycloudflare.com"
+embedded = true
+
+[build]
+include_config_on_deploy = true
+automatically_update_urls_on_dev = true
+
+[webhooks]
+api_version = "2025-04"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://vegetables-amber-quilt-medicines.trycloudflare.com/auth/callback",
+  "https://vegetables-amber-quilt-medicines.trycloudflare.com/auth/shopify/callback",
+  "https://vegetables-amber-quilt-medicines.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
